@@ -1,4 +1,4 @@
-import React from "react";
+import "./offerings.css";
 
 const Offerings = () => {
   return <section id="offerings">Offerings</section>;
