@@ -25,6 +25,7 @@ header {
 .header__content p {
     font-size: 16px;
     margin: 10px 50px 20px;
+    line-height: 1.4;
 }
 
 .btn {
