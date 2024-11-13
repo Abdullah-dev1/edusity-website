@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./components/header";
-import Nav from "./components/nav";
-import Offerings from "./components/offerings";
-import About from "./components/about";
-import Gallery from "./components/gallery";
-import Testimonials from "./components/testimonials";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import Offerings from "./components/offerings/Offerings";
+import About from "./components/about/About";
+import Gallery from "./components/gallery/Gallery";
+import Testimonials from "./components/testimonials/Testimonials";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 const app = () => {
   return (
