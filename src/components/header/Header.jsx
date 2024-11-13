@@ -1,7 +1,22 @@
-import React from "react";
+import "./header.css";
+import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 const Header = () => {
-  return <section id="header">Header</section>;
+  return (
+    <header id="header">
+      <div className="container header__content">
+        <h1>We Ensure better education for a better world</h1>
+        <p>
+          Our cutting-edge curriculum is designed to empower students with the
+          knowledge, skills, and experiences needed to excel in the dynamic
+          field of education
+        </p>
+        <button className="btn">
+          Explore more <HiOutlineArrowLongRight className="btn__icon" />
+        </button>
+      </div>
+    </header>
+  );
 };
 
 export default Header;
