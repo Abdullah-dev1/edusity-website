@@ -81,7 +81,7 @@ img {
     object-fit: cover;
 }
 
-/* =========== MEDIA QURIES (Medium devices) ========== */
+/* =========== MEDIA QUERY ========== */
 
 
 @media (max-width: 1200px) {
@@ -95,14 +95,3 @@ img {
     }
 }
 
-/* =========== MEDIA QURIES (Small devices) ========== */
-
-/* @media screen and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-sm);
-    }
-
-    section>h2 {
-        margin-bottom: 2rem;
-    }
-} */

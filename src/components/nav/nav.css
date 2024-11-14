@@ -1,7 +1,7 @@
 .nav__content {
     width: 100%;
     color: #fff;
-    padding: 4px 142.500px;
+    padding: 4px 0;
     margin: 0;
     position: fixed;
     top: 0;
@@ -13,13 +13,16 @@
     transition: .5s;
 }
 
+.nav__icon {
+    display: none;
+}
+
 .navbar-scrolled {
     background-color: #212ea0;
 }
 
 .nav__links li {
     display: inline-block;
-    margin-right: 20px;
     margin: 5px 20px;
 }
 
@@ -34,6 +37,52 @@
     color: #212121;
 }
 
-.nav__content img {
+.logo {
     width: 180px;
+}
+
+/* ============= MEDIA QUERY (large screens) ============= */
+
+@media (max-width: 1000px) {
+    .nav__links li {
+        margin: 10px 15px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+}
+
+/* ============= MEDIA QUERY (medium screens) ============= */
+
+@media (max-width: 840px) {
+    .nav__content {
+        padding: 15px 0;
+    }
+
+    .nav__icon {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .nav__links {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--color-primary);
+        transition: 0.5s;
+        z-index: -1;
+        padding-top: 70px;
+    }
+
+    .nav__links-hidden {
+        right: -200px;
+    }
+
+    .nav__links li {
+        display: block;
+        margin: 25px 40px;
+    }
 }
