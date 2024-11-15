@@ -18,7 +18,7 @@ const Gallery = () => {
             ))}
           </div>
 
-          <button className="btn btn__dark">
+          <button className="btn">
             See more here <HiOutlineArrowLongRight className="btn__icon" />
           </button>
         </div>

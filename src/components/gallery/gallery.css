@@ -10,7 +10,7 @@
     padding: 14px 22px;
 }
 
-.btn__dark {
+.campus button {
     background: var(--color-primary);
     color: var(--color-white);
 }
