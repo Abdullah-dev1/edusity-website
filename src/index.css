@@ -44,6 +44,7 @@ html {
 }
 
 section h5 {
+    font-weight: 600;
     text-align: center;
     font-size: 15px;
     text-transform: uppercase;
