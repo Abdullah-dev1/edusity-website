@@ -8,9 +8,9 @@ const Offerings = () => {
         <h5>OUR PROGRAM</h5>
         <h2>What We Offer</h2>
 
-        <div className="gallery">
+        <div className="offer__images">
           {offerArray.map(({ id, image, caption, logo }) => (
-            <article className="gallery__card" key={id}>
+            <article className="offer__card" key={id}>
               <img src={image} alt="program-image" />
               <div className="caption">
                 <img src={logo} alt="program-logo" />

@@ -1,4 +1,4 @@
-.gallery {
+.offer__images {
     margin: 80px auto;
     width: 90%;
     display: flex;
@@ -6,12 +6,12 @@
     justify-content: space-between;
 }
 
-.gallery__card {
+.offer__card {
     position: relative;
     flex-basis: 31%;
 }
 
-.gallery__card img {
+.offer__card img {
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -36,7 +36,7 @@
     opacity: 0;
 }
 
-.gallery__card:hover .caption {
+.offer__card:hover .caption {
     opacity: 1;
     padding-top: 0;
 }
@@ -49,11 +49,11 @@
 /* =========== MEDIA QUERY ========== */
 
 @media (max-width: 650px) {
-    .gallery {
+    .offer__image {
         flex-direction: column
     }
 
-    .gallery__card {
+    .offer__card {
         flex-basis: 100%;
         margin: 20px
     }
