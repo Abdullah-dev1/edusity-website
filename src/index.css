@@ -38,6 +38,10 @@ html {
     width: 100%;
 }
 
+a {
+    color: black;
+}
+
 .container {
     padding-left: 10%;
     padding-right: 10%;
