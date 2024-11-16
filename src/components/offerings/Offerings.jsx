@@ -4,7 +4,7 @@ import offerArray from "../../const/offerings";
 const Offerings = () => {
   return (
     <section id="offerings">
-      <div className="container offerings__container">
+      <div className="offerings__container">
         <h5>OUR PROGRAM</h5>
         <h2>What We Offer</h2>
 

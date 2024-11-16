@@ -12,12 +12,14 @@ const app = () => {
     <div>
       <Nav />
       <Header />
-      <Offerings />
-      <About />
-      <Gallery />
-      <Testimonials />
-      <Contact />
-      <Footer />
+      <div className="container">
+        <Offerings />
+        <About />
+        <Gallery />
+        <Testimonials />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 };
